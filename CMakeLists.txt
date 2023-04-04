@@ -23,6 +23,11 @@ add_message_files(FILES
     ObjectArray.msg
 )
 
+add_service_files(
+    FILES
+    ComputeInference.srv
+)
+
 generate_messages(
     DEPENDENCIES
     std_msgs
