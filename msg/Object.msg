@@ -1,6 +1,6 @@
 # Meta info
 int32 id
-string class
+string type
 float32 score
 # Units in pixels
 float32[2] centroid
